@@ -6,4 +6,9 @@ export default {
   component: AbBotao,
 } as Meta;
 
-export const Default: StoryObj = {};
+export const botao: StoryObj = {
+  args: {
+    titulo: "Botão",
+    autor: "Leonardo O Luz"
+  },
+};
