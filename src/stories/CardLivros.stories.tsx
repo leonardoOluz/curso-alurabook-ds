@@ -5,7 +5,7 @@ import { CardLivros } from "../componentes/CardLivros";
 export default {
   title: "CardLivros",
   component: CardLivros,
-} as Meta;
+} as Meta<typeof CardLivros>;
 
 export const card: StoryObj = {
   args: {

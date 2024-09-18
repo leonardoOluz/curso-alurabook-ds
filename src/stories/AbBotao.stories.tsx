@@ -4,7 +4,7 @@ import { AbBotao, AbBotaoProps } from "../componentes/AbBotao";
 export default {
   title: "AbBotao",
   component: AbBotao,
-} as Meta;
+} as Meta<typeof AbBotao>;
 
 export const botaoPrimario: StoryObj = {
   args: {
