@@ -1,21 +1,21 @@
 import React from "react";
 import { Meta, StoryObj } from "@storybook/react"
-import { CardLivros } from "../componentes/CardLivros";
+import { AbCard } from "../componentes/AbCard";
 
 export default {
-  title: "CardLivros",
-  component: CardLivros,
-} as Meta<typeof CardLivros>;
+  title: "AbCard",
+  component: AbCard,
+} as Meta<typeof AbCard>;
 
-export const card: StoryObj = {
+export const padrao: StoryObj = {
   args: {
     titulo: "Card",
     autor: "Leonardo",
   },
 };
 
-export const CardComponente = () => {
-  return (<CardLivros>
+export const AbCardComponente = () => {
+  return (<AbCard>
     <h1>Olá eu sou um card !</h1>
-  </CardLivros>);
+  </AbCard>);
 }

@@ -24,7 +24,7 @@ const CardEstilizado = styled.div`
 
 `
 
-export const CardLivros: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+export const AbCard: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (<CardEstilizado>
     {children}
   </CardEstilizado>
